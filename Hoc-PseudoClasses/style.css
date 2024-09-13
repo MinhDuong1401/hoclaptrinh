@@ -1,0 +1,46 @@
+/* phần1+2*/
+/* .live2:hover {
+  color: red;
+  font-size: 30px;
+} */
+/* .live2:active {
+  color: red;
+  font-size: 30px;
+} */
+/* Phần 3 */
+/* .click:link {
+  color: red;
+}
+.click:visited {
+  color: gray;
+}
+.click1:link {
+  color: red;
+}
+.click1:visited {
+  color: gray;
+}
+div {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+h2:target {
+  color: blue;
+} */
+/* Phần 4 */
+/* chọn thẻ <p> là thẻ con đầu tiên bên trong thẻ cha */
+/* p:first-child {
+  color: rebeccapurple;
+  font-size: 30px;
+} */
+/* chọn thẻ <p> xuất hiện cuối cùng trong thẻ cha  */
+/* p:last-child {
+  color: blue;
+  font-size: 35px;
+} */
+p:nth-last-child(2) {
+  color: red;
+  font-style: italic;
+  font-size: 30px;
+}
