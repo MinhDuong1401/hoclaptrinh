@@ -1,0 +1,45 @@
+/* chọn thẻ phần tử con đầu tiên */
+p:first-child {
+  color: red;
+  font-size: 30px;
+}
+/* chọn phần tử con cuối cùng */
+p:last-child {
+  color: blue;
+  font-style: italic;
+}
+/* chọn thẻ <p> là thẻ con thứ 2 từ trên xuống */
+p:nth-child(2) {
+  color: brown;
+}
+/* tác động lên thẻ con là thẻ số chẵn */
+/* li:nth-child(even) {
+  color: pink;
+  font-size: 20px;
+} */
+
+/* tác động lên thẻ con là thẻ số lẻ */
+/* li:nth-child(odd) {
+  color: green;
+  font-style: oblique;
+} */
+
+/* tác động lên thẻ với bước nhảy mong muốn */
+/* li:nth-child(2n + 1) {
+  color: violet;
+  font-size: 20px;
+} */
+
+/* chọn các li là thẻ con thứ 2 từ dưới lên */
+li:nth-last-child(2) {
+  color: blueviolet;
+  font-size: 30px;
+}
+/*  có thể áp dụng theo phần tử, chẵn lẻ, bước nhảy vào cả nth-child và nth-last-child  */
+
+/* chọn các thẻ là thẻ con duy nhất  */
+p:only-child {
+  color: aqua;
+  font-style: normal;
+  font-size: 30px;
+}
