@@ -1,0 +1,11 @@
+/* chọn tất cả các thẻ có class là top loại trừ thẻ p */
+/* .top:not(p) {
+  background-color: pink;
+} */
+
+/* chọn các thẻ có class là top loại trừ thẻ xuất hiện lần đầu tiên */
+.top:not(:first-of-type) {
+  color: blue;
+}
+
+/* Đối với not(selector) thì selector có thể là bất kì bộ chọn nào chúng ta đã học */

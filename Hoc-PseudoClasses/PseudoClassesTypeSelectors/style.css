@@ -1,0 +1,31 @@
+/* chọn thẻ <p> xuất hiện đầu tiên trong thẻ cha */
+/* p:first-of-type {
+  color: red;
+  font-size: 30px;
+} */
+
+/* chọn thẻ <p> xuất hiện cuối cùng trong thẻ cha */
+/* h2:last-of-type {
+  color: blue;
+  font-style: italic;
+} */
+
+/* chọn thẻ <p> xuất hiện lần thứ n trong thẻ cha */
+/* p:nth-of-type(2) {
+  color: green;
+  font-size: 30px;
+} */
+
+/* chọn các thẻ <p> xuất hiện lần thứ n trong thẻ cha, tính từ cuối lên */
+p:nth-last-of-type(2) {
+  color: rebeccapurple;
+  font-style: italic;
+}
+
+/* Bao gồm cả odd(nhảy theo số lẻ), even(nhảy theo số chẵn), 2n+1(nhảy theo step mong muốn)  */
+
+/* chọn thẻ <p> xuất hiện duy nhất trong thẻ cha */
+p:only-of-type {
+  color: pink;
+  font-size: 40px;
+}

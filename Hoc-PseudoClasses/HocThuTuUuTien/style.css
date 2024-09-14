@@ -1,0 +1,23 @@
+/* universal (bộ chọn chung) */
+/* * {
+  color: red;
+} */
+
+/* element selector */
+h1 {
+  color: blue;
+}
+
+/* class - pseudo class  */
+.demo {
+  color: green;
+}
+
+#theh1 {
+  color: blueviolet;
+}
+
+/* !important */
+* {
+  color: yellow !important;
+}
