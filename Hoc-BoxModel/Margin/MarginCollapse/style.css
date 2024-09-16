@@ -1,0 +1,39 @@
+/* margin collapse tác động theo chiều dọc */
+.box {
+  width: 100px;
+  height: 100px;
+  border: 20px solid blue;
+}
+.box1 {
+  margin-bottom: 20px;
+}
+.box2 {
+  margin-top: 70px;
+}
+
+/* margin collapse không bị tác động theo chiều ngang  */
+.item {
+  background-color: red;
+  border: 2px solid;
+}
+.item1 {
+  margin-right: 10px;
+}
+.item2 {
+  margin-left: 20px;
+}
+
+/* margin collapse xảy ra với phần tử có quan hệ cha con */
+.box_perent {
+  background-color: cadetblue;
+  height: 250px;
+  margin-top: 50px;
+  /* cách khắc phục là thêm 2 thuộc tính là display và flex */
+  display: flex;
+  flex-direction: column;
+}
+.box_child {
+  width: 50%;
+  background-color: blue;
+  margin-top: 110px;
+}
