@@ -1,0 +1,16 @@
+/* strong {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  padding: 30px;
+} */
+/* thuộc tính padding-top,bottom, margin-top, margin-bottom và width,height,min-width,min height không áp dụng được chiều dọc với inline  */
+
+/* khi đó ta phải sử dụng inline-block để dãn dòng  */
+strong {
+  padding: 30px;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  display: inline-block;
+}
