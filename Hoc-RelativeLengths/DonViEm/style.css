@@ -1,0 +1,32 @@
+/* TH1: nếu thẻ cha và thẻ con không có font-size -> lấy theo font-size của root(html) */
+
+/* TH3: Nếu cả cha và đơn vị con đều có đơn vị thì nó sẽ lấy đơn vị của chính nó là thẻ con  */
+/* .child {
+  width: 10em;
+  height: 10em;
+  background-color: rebeccapurple;
+} */
+
+/* TH2: đơn vị "em" sẽ phụ thuộc vào yếu tố font-size hiện tại */
+/* trong trường hợp chỉ có thẻ cha có font-size thì nó sẽ lấy font-size của thẻ cha  */
+
+/* .parent {
+  font-size: 2em;
+} */
+
+/* TÓM TẮT: 
+        -> ưu tiên 1: font-size của chính phần tử đó
+        -> ưu tiên 2: phụ thuộc vào font-size của thẻ cha 
+        -> ưu tiên 3: phụ thuộc vào font-size của root(thẻ gốc html)
+*/
+
+.parent {
+  font-size: 10px;
+}
+/* vì có tính kế thừa nên kích thước của các child sẽ xếp chồng lên nhau  */
+.child {
+  font-size: 2em;
+  width: 2em;
+  height: 2em;
+  background-color: red;
+}

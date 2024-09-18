@@ -1,0 +1,23 @@
+h1 {
+  /* 1. kênh rgb */
+  /* color: rgb(255, 0, 0);
+  color: rgb(255 0 0); */
+
+  /* 2. kênh rgba */
+  /* color: rgba(255, 0, 0, 0.6);
+  background-color: blueviolet; */
+
+  /* 3. kênh thập lục phân */
+  /* color: #ff3300; */
+
+  /* 4.color name */
+}
+.box {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  color: pink;
+  background-color: currentColor;
+  outline: 5px solid currentColor;
+  outline-offset: 5px;
+}
