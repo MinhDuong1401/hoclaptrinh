@@ -1,0 +1,18 @@
+h1 {
+  margin: 40px;
+  /* text-shadow: ngang, dọc, độ mờ, màu */
+  text-shadow: 20px 20px rgba(255, 0, 0, 0.299);
+}
+.box1 {
+  background-color: yellow;
+  width: 200px;
+  height: 300px;
+  /* Thuộc tính mặc định: hiển thị nội dung ngay cả khi vượt box chứa */
+  overflow: visible;
+  /* ẩn nôi dung: khi mà nội dung vượt box chứa */
+  overflow: hidden;
+  /* Tạo thanh quận: luôn luôn hiển thị vùng thanh cuộn */
+  overflow: scroll;
+  /* tự động sinh ra thanh cuộn khi mà nội dung vượt quá box chứa */
+  overflow: auto;
+}

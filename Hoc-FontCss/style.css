@@ -10,3 +10,12 @@ body {
 h1 {
   font-family: "Roboto Slab", serif;
 }
+p {
+  /* font-weight: 700; */
+  line-height: 1.5;
+}
+h1 {
+  height: 120px;
+  background-color: blue;
+  line-height: 120px;
+}

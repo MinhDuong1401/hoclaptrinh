@@ -1,0 +1,12 @@
+strong {
+  text-decoration: none; /*bỏ gạch chân*/
+  text-decoration: underline; /* thêm gạch chân*/
+  text-decoration: line-through; /*gạch giữa*/
+  text-decoration: overline; /*gạch bên trên*/
+}
+.line {
+  text-indent: 20px; /* đầu dòng cách lề trái 20px*/
+  text-transform: lowercase; /*Viết thường tất cả*/
+  text-transform: uppercase; /*viết hoa tất cả*/
+  text-transform: capitalize; /*viết hoa chữ cái đầu tiên*/
+}
