@@ -1,0 +1,10 @@
+.box {
+  width: 300px;
+  height: 300px;
+  border: 4px dotted red;
+  background-image: url(./bg/anhcunxinh.jpg);
+  background-size: contain;
+  background-size: cover;
+  background-size: 200px;
+  background-size: 100% 300px;
+}

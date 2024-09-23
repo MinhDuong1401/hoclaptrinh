@@ -1,0 +1,32 @@
+.box {
+  width: 400px;
+  height: 400px;
+  border: 3px dotted red;
+  margin: 40px;
+  background-image: url(./bg/anhcunxinh.jpg);
+  /* điểm ảnh bắt đầu từ tâm của bức ảnh */
+  background-position: center;
+  /*điểm ảnh bắt đầu từ giữa phía trên bức ảnh  */
+  background-position: top;
+  /*điểm ảnh bắt đầu từ giữa phía bên phải bức ảnh  */
+  background-position: right;
+  /*điểm ảnh bắt đầu từ giữa phía bên dưới bức ảnh  */
+  background-position: bottom;
+  /*điểm ảnh bắt đầu từ giữa phía bên trái bức ảnh  */
+  background-position: left;
+  /*điểm ảnh bắt đầu từ bên trên phía bên trái bức ảnh  */
+  background-position: top left;
+  /*điểm ảnh bắt đầu từ bên trên phía bên phải bức ảnh  */
+  background-position: top right;
+  /*điểm ảnh bắt đầu từ bên dưới phía bên phải bức ảnh  */
+  background-position: bottom right;
+  /*điểm ảnh bắt đầu từ bên dưới phía bên trái bức ảnh  */
+  background-position: bottom left;
+
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+}
+img {
+  width: 70%;
+  margin: 50px;
+}

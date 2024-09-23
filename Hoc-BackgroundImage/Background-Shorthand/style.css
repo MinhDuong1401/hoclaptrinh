@@ -1,0 +1,59 @@
+.box {
+  width: 200px;
+  height: 200px;
+  border: 50px dotted rgb(0, 255, 132);
+  padding: 50px;
+
+  /* background-color: aquamarine; */
+  /* background-image: url(./bg/1.png); */
+  /* background-position: Vị trí bắt đầu đặt ảnh  */
+  /* background-position: left;
+  background-position: right;
+  background-position: top;
+  background-position: bottom;
+  background-position: top left;
+  background-position: top right;
+  background-position: bottom left;
+  background-position: bottom right;
+  background-position: center; */
+
+  /* background-position: ĐƠN VỊ % */
+  /* background-position: 100% 0; */
+
+  /* background-position: ĐƠN VỊ TUYỆT ĐỐI  */
+  /* background-position: 0 100px; */
+
+  /* background-size: mặc định hiển thị ảnh theo kích thước thật, tỉ lệ 1:1  */
+  /* background-size: auto; */
+  /* background-size: contain; */
+  /* background-size: cover; */
+
+  /* background-repeat: lặp lại ảnh  */
+  /* background-repeat: repeat; */
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+
+  /* background-origin: xác định gốc bức ảnh đặt ở vị trí nào */
+  /* background-origin: padding-box; */
+  /* background-origin: border-box; */
+  /* background-origin: content-box; */
+
+  /* background-clip: xác định xem nền đổ từ vùng nào */
+  /* ảnh từ border hất vào trong */
+  /* background-clip: border-box; */
+  /* ảnh từ padding hất vào trong */
+  /* background-clip: padding-box; */
+  /* ảnh từ content hất vào trong */
+  /* background-clip: content-box; */
+
+  /* background-attachment: mặc định ảnh bị cuộn theo thanh cuộn  */
+  /* background-attachment: scroll; */
+  /* background-attachment: fixed ảnh cố định khi kéo thanh cuộn  */
+  /* background-attachment: fixed; */
+  /* background-attachment: ảnh cố định khi kéo thanh cuộn trong box con   */
+  /* background-attachment: local; */
+
+  /* viết tắt code */
+  background: red url(./bg/1.png) left / cover no-repeat padding-box border-box;
+}

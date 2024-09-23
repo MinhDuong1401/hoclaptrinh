@@ -1,0 +1,19 @@
+body {
+  background-color: aqua;
+}
+.box1 {
+  color: blueviolet;
+  width: 200px;
+  height: 200px;
+  /* tên màu */
+  background-color: darkblue;
+  /* kênh màu rgb */
+  background-color: rgb(200, 255, 0, 0.5);
+  /* hệ thập lục phân */
+  background: #891973bb;
+  /* dùng màu hiện tại ta chuyền vào thẻ */
+  background-color: currentColor;
+  margin: 20px;
+  padding: 20px;
+  border: 20px dotted red;
+}

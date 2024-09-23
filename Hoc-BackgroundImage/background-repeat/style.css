@@ -1,0 +1,9 @@
+.box1 {
+  height: 100vh;
+  background-image: url(./bg/anhla.png), url(./bg/texture.webp);
+  /* background-image: none; */
+  /* background-repeat: no-repeat; không lặp */
+  /* background-repeat: repeat-x; lặp theo chiều ngang */
+  /* background-repeat: repeat-y; lặp theo chiều dọc */
+  /* background-repeat: repeat; lặp theo cả 2 chiều */
+}
