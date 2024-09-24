@@ -1,0 +1,33 @@
+body {
+  background-color: aqua;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background: url(./bg/download.jpg) center;
+  background-size: cover;
+  /* cắt hình tròn */
+  /* clip-path: circle(50% at 50% 70%);  */
+
+  /* cắt hình chữ nhật */
+  clip-path: inset(20px);
+
+  /* cắt 4 góc */
+  /* clip-path: inset(20px round 30px); */
+
+  /* cắt hình đa giác */
+  clip-path: polygon(20% 20%, 80% 20%, 80% 80%, 20% 80%);
+  clip-path: polygon(
+    0% 0%,
+    20% 20%,
+    50% 0,
+    80% 20%,
+    100% 0%,
+    100% 100%,
+    80% 80%,
+    50% 100%,
+    20% 80%,
+    0% 100%
+  );
+}

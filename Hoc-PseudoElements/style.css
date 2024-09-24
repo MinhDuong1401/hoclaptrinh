@@ -1,0 +1,39 @@
+/* tác động lên dòng đầu tiên của thẻ p */
+p::first-line {
+  color: red;
+}
+/* lưu ý: không tác dụng được với thẻ có thuộc tính inline */
+
+/* tác động lên chữ cái đầu tiên */
+p::first-letter {
+  font-size: 40px;
+  font-style: italic;
+}
+
+/* tác động lên chữ cái được bôi đen */
+p::selection {
+  color: aliceblue;
+  background-color: pink;
+}
+
+/* chọn các phần tử đánh dấu của thẻ li */
+li::marker {
+  color: aqua;
+  font-size: 20px;
+}
+
+/* thêm vào phần tử đằng trước thẻ */
+.box::before {
+  content: "em ở đằng trước nè";
+}
+
+/* thêm vào phần tử đằng sau thẻ */
+.box::after {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 10px;
+  background-color: aqua;
+  color: blue;
+  border-radius: 5px;
+}

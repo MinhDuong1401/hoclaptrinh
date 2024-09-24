@@ -1,0 +1,14 @@
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  margin: 100px;
+  /* đổ bóng */
+  /* box-shadow: 60px -16px blue; */
+
+  /* box-shadow: inset 10px 20px; */
+
+  /* đổ nhiều bóng */
+  box-shadow: 160px 0 gray, 0 160px green, 160px 160px pink;
+  border-radius: 5px;
+}
