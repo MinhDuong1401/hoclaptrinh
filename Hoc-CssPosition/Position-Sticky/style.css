@@ -1,0 +1,13 @@
+.content {
+  width: 400px;
+  height: 900px;
+  background: aqua;
+  overflow: auto;
+}
+
+h2 {
+  background-color: yellow;
+  /* position: sticky dùng để tạo hiệu ứng bám dính, khi nội dung trong thẻ cha gần nhất có thanh cuốn  */
+  position: sticky;
+  top: 0;
+}

@@ -1,0 +1,38 @@
+* {
+  font-size: 1.5rem;
+}
+body {
+  margin: 0;
+}
+.container {
+  height: 300px;
+  display: flex;
+  /* justify-content sẽ căn các phần tử theo trục main axis (trục nằm ngang) */
+
+  /* định vị item từ điểm bắt đầu(bên trái page) */
+  /* justify-content: start; */
+
+  /* định vị item từ điểm kết thúc(bên phải page) */
+  /* justify-content: end; */
+
+  /* định vị item ở giữa trục main axis */
+  /* justify-content: center; */
+
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  justify-content: space-evenly;
+
+  /* align-items định vị các item theo trục cross axis ( trục chiều dọc)  */
+
+  align-items: stretch; /* mặc định */
+  align-items: flex-start; /* định vị item từ điểm bắt đầu của cross axis */
+  align-items: flex-end; /* định vị item từ điểm kết thúc của cross axis */
+  align-items: center; /* định vị item ở giữa trục cross axis */
+  background-color: aquamarine;
+}
+.box {
+  background-color: green;
+}
+.box1 {
+  height: 200px;
+}

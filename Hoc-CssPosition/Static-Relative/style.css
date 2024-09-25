@@ -1,0 +1,44 @@
+.box {
+  width: 100px;
+  height: 100px;
+  color: aliceblue;
+  /* căn chữ ở giữa thẻ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background: yellow;
+  position: relative;
+}
+
+.content {
+  background: aquamarine;
+  width: 400px;
+  margin: 40px;
+  position: relative;
+}
+
+.box1 {
+  background: blue;
+}
+.box2 {
+  background: red;
+  /* position: relative định vị so với vị trí ban đầu 1 khoảng x */
+  /* position: relative; */
+  /* left: 50px; */
+
+  /* position: absolute nếu tổ tiên không có position: relative thì sẽ căn theo góc trên bên trái của webpage */
+  /* position: absolute nếu tổ tiên có thuộc tính position: relative thì nó sẽ lấy giá trị của thằng gần nhất */
+
+  position: absolute;
+  left: 50px;
+  top: 30px;
+}
+.box3 {
+  background: green;
+}
+h1 {
+  background: purple;
+}

@@ -1,0 +1,61 @@
+:root {
+  --box-height: 100px;
+  --box-color: pink;
+}
+
+/* khi code bình thường không sử dụng biến */
+/* 
+.box1 {
+  background-color: aqua;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.box2 {
+  background-color: aqua;
+  height: 100px;
+  margin-bottom: 30px;
+}
+.box3 {
+  background-color: aqua;
+  height: 100px;
+  margin-bottom: 30px;
+} */
+
+/* khi sử dụng biến */
+.box1 {
+  background-color: var(--box-color);
+  height: var(--box-height);
+  margin-bottom: 10px;
+}
+.box2 {
+  background-color: var(--box-color);
+  height: var(--box-height);
+  margin-bottom: 30px;
+}
+.box3 {
+  background-color: var(--box-color);
+  height: var(--box-height);
+  margin-bottom: 30px;
+}
+
+/*
+/* 1. khai báo biến trong phần tử nào thì sẽ áp dụng được cho phần tử đó và cả các thẻ con của nó */
+.detail {
+  --p_font: 30px;
+  font-size: var(--p_font);
+}
+/* khi này có thể dụng biến "--p_font" trong thẻ p và thẻ span nhưng k thể dùng lên các thẻ div */
+
+/* 2. có thể bị ghì đè theo thứ tự ưu tiên */
+.box3 {
+  background-color: blueviolet;
+}
+
+/* 3. giá trị back up của biến */
+.contain {
+  --bg_box: red;
+}
+.box4 {
+  background-color: var(--bg_box, green);
+  height: 100px;
+}
