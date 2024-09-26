@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  background-color: aquamarine;
+  height: 150px;
+  flex-direction: column;
+}
+.box {
+  background-color: blue;
+  border: 1px solid;
+  /* width: 30%; */
+  /* set trục main theo giá trị mà mình chuyền vào  */
+  flex-basis: 30%;
+}

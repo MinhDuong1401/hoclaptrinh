@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  /* width: 100px; */
+}
+
+.box {
+  /* thứ tự ưu tiên của size box */
+
+  /* 1. content width: độ rộng của box chữa sẽ bằng nội dung mà nó chứa  */
+
+  /* 2. width: đặt chiều rộng cho box  */
+  /* width: 100px; */
+
+  /* 3. flex-basis: set main item - theo trục main axis */
+  /* flex-basis: 200px; */
+
+  /* 4. max-width/min-width: chiều rộng tối đa và tối thiểu của box */
+  /* max-width: 100px; */
+  /* khi mà ta đặt 2 thuộc tính là max-width và flex-basis thì sẽ xảy ra 2 trường hợp:
+  4.1. nếu max-width < flex-basis -> thì sẽ nhận giá trị của max-width
+  4.2. nếu max-width > flex-basis => thì sẽ nhận giá trị của flex-basis */
+
+  /* 5. min-width: quy định độ rộng tối thiểu của box
+  lưu ý: min-width sẽ quy định tối thiểu độn rộng của box cho nên nếu ta có co cửa sổ trình duyệt lại các box sẽ không co lại */
+  /* min-width: 300px; */
+
+  /* 3 thuộc tính của flex-item */
+
+  /* 1. flex-grow: ; chia tỉ lệ dãn của các box theo trọng số  */
+  flex-grow: 0;
+
+  /* flex-shrink: ; xác định khả năng co lại của các item */
+  flex-shrink: 1;
+
+  /* flex-basis: ; set main size item- theo trục main axis */
+  flex-basis: 100px;
+
+  /* viết tắt: */
+  /* flex: 1 0 100px; */
+}
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: blue;
+  /* sắp xếp thứ tự cho item */
+  order: 1;
+}
+.box3 {
+  background-color: green;
+}
+.box4 {
+  background-color: aqua;
+}

@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  height: 150px;
+  background-color: aquamarine;
+}
+.box {
+  background-color: blue;
+  border: 1px solid;
+  width: 30%;
+}
+.box1,
+.box2 {
+  /* làm cho box không bị co lại  */
+  flex-shrink: 0;
+}

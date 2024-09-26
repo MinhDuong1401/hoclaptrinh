@@ -1,0 +1,19 @@
+.box {
+  background-color: blue;
+  border: 1px solid;
+}
+.container {
+  height: 200px;
+  display: flex;
+  background-color: aqua;
+
+  /* đổi chiều trục main  */
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+
+  /* xoay trục main axis thành chiều dọc chạy từ trên xuống dưới, cross axis xoay thành trục ngang chạy từ trái sang phải */
+  flex-direction: column;
+
+  /* xoay trục main axis thành chiều dọc chạy từ dưới lên trên, cross axis xoay thành trục ngang chạy từ trái sang phải */
+  flex-direction: column-reverse;
+}

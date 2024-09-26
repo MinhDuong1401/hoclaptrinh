@@ -1,0 +1,13 @@
+.box {
+  background-color: blue;
+  width: 30%;
+  border: 1px solid;
+}
+.container {
+  display: flex;
+  background-color: aqua;
+  /* flex-wrap: wrap;
+  flex-direction: row; */
+  /* viết tắt */
+  flex-flow: wrap row;
+}
